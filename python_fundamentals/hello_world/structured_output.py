@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
-print("Langauge: Python")
-print("version: 3")
-print("Pi approx: 3.14"
-print("Computation valid: True")
+pib = 3.14159
+b = 2
+v = b != 1
 
+print("Language: Python")
+print("Version: 3")
+print(f"Pi approx: {pib:.2f}")
+print(f"Computation valid: {v}")
