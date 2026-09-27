@@ -1,9 +1,2 @@
 #!/usr/bin/env python3
-output = ""
-
-for letter_code in range(ord('a'), ord('z') +1):
-    letter = chr(letter_code)
-    if letter not in "qe":
-            output += letter
-
-print(output)              
+print("{}".format("".join(chr(i) for i in range(97,123) if chr(i) not in "qe")))
