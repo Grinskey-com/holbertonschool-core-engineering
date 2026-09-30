@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-def print_safe_integer(value):
+def safe_print_integer(value):
     try:
         print("{:d}".format(value))
         return(True)
