@@ -1,6 +1,4 @@
-#!/usr/bin/python3
-"""Defines a Square class."""
-
+#!/usr/bin/env python3
 
 class Square:
     """Represents a square."""
