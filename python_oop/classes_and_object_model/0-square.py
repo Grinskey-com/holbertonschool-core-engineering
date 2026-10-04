@@ -5,5 +5,6 @@ A module that defines a Square class.
 
 
 class Square:
-    """a square."""
-    pass
+    def __init__(self, size):
+        self.__size = size  # Instance attribute
+    
