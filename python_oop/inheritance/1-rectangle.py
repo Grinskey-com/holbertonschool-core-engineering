@@ -1,4 +1,4 @@
-#!/usr/bin/env  python3
+#!/usr/bin/env python3
 
 BaseGeometry = __import__('base_geometry').BaseGeometry
 
