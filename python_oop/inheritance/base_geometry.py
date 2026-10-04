@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Defines a BaseGeometry class with area and integer validation."""
 
+
 class BaseGeometry:
     """Base class for geometric shapes."""
     def area(self):
