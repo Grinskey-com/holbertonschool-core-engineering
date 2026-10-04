@@ -1,10 +1,9 @@
-#!/usr/bin/env python3
-"""
-A module that defines a Square class.
-"""
+#!/usr/bin/python3
+"""Defines a Square class."""
 
 
 class Square:
-    def __init__(self, size):
-        self.__size = size  # Instance attribute
+    """Represents a square."""
     
+    def __init__(self, size=0):
+        self.__size = size
