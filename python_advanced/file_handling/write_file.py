@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """
-Writes to a file and prints the number of chars 
-
+write_file
+a fucntion that writes a string to a text file
+and returns the number of chars written 
 """
 
 
 def write_file(filename="", text=""):
     with open(filename, mode="w", encoding="utf-8") as f:
-        nb_characters = f.write("This chool is so cool\n")
-        print(nb_characters)
+        return f.write(text)
+        
